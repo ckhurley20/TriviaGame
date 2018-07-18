@@ -1,0 +1,46 @@
+body{
+	background: url('https://media.giphy.com/media/jTZVegIrdLCCY/giphy.gif');
+	background-size: 100%;
+	font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+	font-size: 25px;
+}
+
+.btn-primary,.reset{
+	background-color: #313477;
+	color: white;
+	font-family: 'Sigmar One', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: darkblue;
+}
+
+.container{
+	margin-top: 100px;
+	text-align: center;
+	width: auto;
+	background: white;
+	padding: 20px;
+}
+
+h2, #message, #finalMessage{
+	font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+.thisChoice:hover{
+	background-color: #202364;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
